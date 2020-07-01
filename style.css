@@ -68,41 +68,99 @@ section{
 .latest-work img{
     width: 100%;
 }
+.work-experience{
+    background-color:#fff;
+    height: 400px;
+}
+.work-experience h4{
+    margin: 0;
+}
+.work-experience p{
+    margin: 10px;
+}
+.work-experience h2{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.experience{
+    box-shadow: 0px 10px 20px 4px #00000025;
+    border-radius: 5px;
+    background: white;
+    padding: 15px;
+}
+.experience h3 span{
+    color:#ec4c7a ;
+    
+}
+.experience h4 span{
+    color:#ec4c7a ;
+}
+.experiance-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experiance-area h2{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.single-ex{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    height: 65%;
+    background: white;
+    padding: 25px;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,tomato,lightsalmon);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue, cyan);
+    border-image-slice: 1;
+}
 .client-review{
     background-image: url(images/footer-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 100px;
+    text-align: center;
 }
 .client-review h2{
-    text-align: center;
     font-weight: 600;
-}
-.client-review h3{
-    text-align: center;
-    
+    margin-bottom: 60px;
 }
 .client-review h4{
-    text-align: center;
     font-weight: 500;
     margin: 0;
-    
-}
-.client-review p{
-    text-align: center;
-    
 }
 .mail-button{
-    text-align: center;
-    background: #ec4c7a;
-    padding: 50px;
+    width: 660px;
+    height: 140px;
+    padding: 20px 0 0 0 ;
+    margin: auto;
+    border-radius: 10px;
+    background: #ec4c77;
+    margin-top: 50px;
 }
 .mail-button a{
     text-decoration: none;
-    display: block;
+    color: white;
+    margin-bottom: 20px;
+}
+#message{
+    font-size: 14px;
+    
+}
+#mail{
+    font-size: 25px;
 }
 footer p{
     text-align: center;
     color: dimgray;
     font-size: 12px;
+    padding-top: 200px;
 }
+
